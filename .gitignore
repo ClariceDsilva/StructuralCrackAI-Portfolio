@@ -1,0 +1,56 @@
+# ============================================================
+# PRIVATE MODEL / TRAINING MATERIAL
+# ============================================================
+
+best.pt
+*.pt
+*.pth
+*.onnx
+
+# Training notebooks
+notebooks/
+*.ipynb
+
+# Calibration
+calibration/
+calibration.json
+**/calibration.json
+**/camera_calibration.json
+
+# Datasets
+datasets/
+dataset/
+data/
+yolo11n_seg_crack500_v1/
+yolo11n_seg_crack500_v2/
+yolo11n_seg_crack500_negatives_v1/
+yolo11n_seg_crack500_negatives_v2/
+
+# Training outputs
+runs/
+wandb/
+mlruns/
+
+# Local/private test material
+manual_test_images/
+manual_test_results/
+manual_test_visual_results/
+manual_test_engineering_results/
+batch_test/
+video_annotation_frames/
+video_test_results/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local backup files
+*.backup*
+*.before-*.py
