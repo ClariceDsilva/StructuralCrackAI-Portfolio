@@ -6,6 +6,27 @@ StructuralCrackAI combines deep-learning-based crack segmentation with computer-
 
 ---
 
+## 🎥 Working Application Demo
+
+Watch the recorded end-to-end StructuralCrackAI application demonstration.
+
+The demo shows the working inspection pipeline, including:
+
+- Structural surface image input
+- AI-based crack detection and segmentation
+- Crack geometry analysis
+- Crack length and width estimation
+- Relative depth analysis
+- Severity assessment
+- Crack-by-crack engineering analysis
+- Structural risk prioritization
+
+▶️ **[Watch the Working Application Demo on YouTube](https://youtu.be/y-S6DXDNoPI)**
+
+> The production model weights, calibration files, datasets, and research notebooks are kept private because this project is currently undergoing patent-related protection.
+
+---
+
 ## Overview
 
 Structural inspections can involve large numbers of images and manual identification of cracks.
@@ -107,6 +128,8 @@ This allows measurements such as:
 
 Without calibration, the system reports measurements in pixels.
 
+> The calibration file is intentionally not included in this public repository.
+
 ---
 
 ## Relative Depth Analysis
@@ -115,11 +138,11 @@ StructuralCrackAI integrates Depth Anything V2 to generate a relative depth map 
 
 The depth component provides model-derived relative surface-depth information that can be compared around detected crack regions.
 
-Important:
+### Important
 
 The depth output is a relative, unitless indicator.
 
-It is NOT a direct physical measurement of crack depth in millimetres.
+It is **NOT** a direct physical measurement of crack depth in millimetres.
 
 ---
 
