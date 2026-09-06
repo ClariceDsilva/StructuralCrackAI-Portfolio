@@ -4,6 +4,12 @@ AI-powered structural crack detection, segmentation, measurement, and risk-asses
 
 StructuralCrackAI combines deep-learning-based crack segmentation with computer-vision geometry analysis, relative depth estimation, severity classification, and structural risk prioritization through an interactive Streamlit application.
 
+### 🌐 Live Application
+
+▶️ **[Open the Live StructuralCrackAI Application](https://structuralcrackai-i6rzijd9frukh4ydanrs3.streamlit.app/)**
+
+The live application provides the complete AI-assisted structural crack inspection workflow, including structural-image validation, crack segmentation, geometry analysis, relative depth analysis, severity assessment, and structural risk prioritization.
+
 ---
 
 ## 🎥 Working Application Demo
