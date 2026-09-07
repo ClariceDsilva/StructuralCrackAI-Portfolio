@@ -6,7 +6,7 @@ StructuralCrackAI combines deep-learning-based crack segmentation with computer-
 
 ### 🌐 Live Application
 
-▶️ **[Open the Live StructuralCrackAI Application](https://structuralcrackai-i6rzijd9frukh4ydanrs3.streamlit.app/)**
+▶️ **[Open the Live StructuralCrackAI Application](https://structuralcrackai-i6rzijd9frukh4yrdanrs3.streamlit.app/)**
 
 The live application provides the complete AI-assisted structural crack inspection workflow, including structural-image validation, crack segmentation, geometry analysis, relative depth analysis, severity assessment, and structural risk prioritization.
 
